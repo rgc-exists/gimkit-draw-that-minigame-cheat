@@ -7,7 +7,7 @@
 
 
 
-
+size = [20, 20]
 
 
 
@@ -82,7 +82,7 @@ color2Pos = {
 palette_path = "C:\\Users\\rando\\OneDrive\\Documents\\gimkit palette.png"
 output_path = "C:\\Users\\rando\\OneDrive\\Documents\\output.png"
 im = ImageGrab.grabclipboard()
-im = im.resize([20, 20])
+im = im.resize(size)
 palette = Image.open(palette_path)
 im = im.quantize(12, 0, palette=palette, dither=1)
 im.save(output_path)
