@@ -7,7 +7,8 @@
 
 
 
-size = [20, 20]
+size = [20, 20] #Size of the image you draw, in pixels. Try and keep this low because the larger the image the longer it takes to draw.
+# Often 20x20 images don't finish drawing, but most of the time they're close AND somewhat understandable so good enough.
 
 
 
